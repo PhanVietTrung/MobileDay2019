@@ -11,6 +11,9 @@ https://material.io/design/introduction/#
 ## Android Sample project:
 https://github.com/thanhnguyenduc157/Demo-Layout/tree/master
 
+## iOS Sample project:
+Please Clone or Download this repository
+
 ## Contact:
 Company: Dwarves Foundation
 https://dwarves.foundation
