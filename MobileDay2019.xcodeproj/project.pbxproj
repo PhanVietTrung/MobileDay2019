@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		551C0D0A22A26522004BB58B /* ScrollViewInsideScrollViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551C0D0922A26522004BB58B /* ScrollViewInsideScrollViewViewController.swift */; };
+		551C0D0C22A265FD004BB58B /* ScrollViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551C0D0B22A265FD004BB58B /* ScrollViewTableViewCell.swift */; };
+		551C0D1122A26D20004BB58B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551C0D1022A26D20004BB58B /* WebKit.framework */; };
+		551C0D1322A27285004BB58B /* InstrinsicTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551C0D1222A27285004BB58B /* InstrinsicTableView.swift */; };
 		55B538ED229D3B2A00286932 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B538EC229D3B2A00286932 /* AppDelegate.swift */; };
 		55B538EF229D3B2A00286932 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B538EE229D3B2A00286932 /* ViewController.swift */; };
 		55B538F2229D3B2A00286932 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B538F0229D3B2A00286932 /* Main.storyboard */; };
@@ -26,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		551C0D0922A26522004BB58B /* ScrollViewInsideScrollViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewInsideScrollViewViewController.swift; sourceTree = "<group>"; };
+		551C0D0B22A265FD004BB58B /* ScrollViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTableViewCell.swift; sourceTree = "<group>"; };
+		551C0D1022A26D20004BB58B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		551C0D1222A27285004BB58B /* InstrinsicTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrinsicTableView.swift; sourceTree = "<group>"; };
 		55B538E9229D3B2A00286932 /* MobileDay2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileDay2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B538EC229D3B2A00286932 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55B538EE229D3B2A00286932 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				551C0D1122A26D20004BB58B /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +65,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		551C0D0F22A26D20004BB58B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				551C0D1022A26D20004BB58B /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		55B538E0229D3B2A00286932 = {
 			isa = PBXGroup;
 			children = (
 				55B538EB229D3B2A00286932 /* MobileDay2019 */,
 				55B53900229D3B2C00286932 /* MobileDay2019Tests */,
 				55B538EA229D3B2A00286932 /* Products */,
+				551C0D0F22A26D20004BB58B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +101,9 @@
 				55B538F3229D3B2C00286932 /* Assets.xcassets */,
 				55B538F5229D3B2C00286932 /* LaunchScreen.storyboard */,
 				55B538F8229D3B2C00286932 /* Info.plist */,
+				551C0D0922A26522004BB58B /* ScrollViewInsideScrollViewViewController.swift */,
+				551C0D0B22A265FD004BB58B /* ScrollViewTableViewCell.swift */,
+				551C0D1222A27285004BB58B /* InstrinsicTableView.swift */,
 			);
 			path = MobileDay2019;
 			sourceTree = "<group>";
@@ -198,6 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				55B538EF229D3B2A00286932 /* ViewController.swift in Sources */,
+				551C0D1322A27285004BB58B /* InstrinsicTableView.swift in Sources */,
+				551C0D0C22A265FD004BB58B /* ScrollViewTableViewCell.swift in Sources */,
+				551C0D0A22A26522004BB58B /* ScrollViewInsideScrollViewViewController.swift in Sources */,
 				55B538ED229D3B2A00286932 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
