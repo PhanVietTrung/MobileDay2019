@@ -4,6 +4,12 @@ Resource for mobile day
 ## Apple ecosystem design guidelines.
 https://developer.apple.com/design/human-interface-guidelines/
 
+## SwiftUI
+https://developer.apple.com/documentation/swiftui
+
+## Flutter
+https://flutter.dev
+
 ## Android Material guidelines
 https://material.io/design/introduction/#
 
