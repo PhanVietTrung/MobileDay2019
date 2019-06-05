@@ -32,11 +32,6 @@ Please Clone or Download this repository.
 Company: Dwarves Foundation
 https://dwarves.foundation
 
-Want to become Dwarvesfer:
-https://dwarves.careers
-
-Our intership program:
-https://internship.dwarves.foundation
 
 ## Speaker:
 Phan Viet Trung
